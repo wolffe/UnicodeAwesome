@@ -1,0 +1,85 @@
+/*!
+ * UnicodeAwesome 1.0.0
+ *
+ * @author  gplCiprian Popescu
+ * @url     https://getbutterfly.com/unicodeawesome/
+ * @license https://www.gnu.org/licenses/gpl-3.0.en.html
+ */
+.ua-icon {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Segoe UI Symbol", Helvetica, Arial, sans-serif;
+
+    speak: none;
+    line-height: 1;
+    font-size: inherit;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-transform: none;
+
+    text-rendering: geometricPrecision;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.ua-uw {
+    display: inline-block;
+    text-align: center;
+    width: 24px;
+}
+
+@-moz-keyframes ua-spin {
+    from {
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes ua-spin {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes ua-spin {
+    from {
+        -wekbit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.ua-spin {
+    display: inline-block;
+    -webkit-animation: ua-spin 2s infinite linear;
+    animation: ua-spin 2s infinite linear;
+}
+
+/*
+ * List of icons
+ */
+.ua-calendar:before {
+    content: '\1F4C5\FE0E';
+}
+.ua-times:before {
+    content: '\274C\FE0E';
+}
+.ua-plus:before {
+    content: '\2795\FE0E';
+}
